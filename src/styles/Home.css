@@ -1,0 +1,148 @@
+#Home{
+    display: grid;
+    align-items: stretch;
+    overflow-y: scroll;
+    grid-template-areas: 
+    'header header'
+    'left right'
+
+}
+
+
+#Home header {
+    display: flex;
+    grid-area: header;
+    height: 60px;
+    align-items: center;
+
+    padding-left: 100px;
+    padding-right:100px;
+    padding-top: 50px;
+
+    
+    justify-content: space-between;
+}
+
+#Home header .social{
+    display: flex;
+}
+
+#Home header .social .middle-icon{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+/* Code Imagem  */
+#Home aside {
+    grid-area: right;
+    padding-top: 190px;
+}
+
+#Home aside img{
+    max-width: 599px;
+}
+
+#Home strong {
+    font-size: 50px;
+    margin-bottom: 40px;
+
+    /* Gradiente */
+    background-image: linear-gradient(to bottom right, #CBBEE7, #FFFFFF);
+    
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: initial;
+
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+}
+
+#Home #Information img{
+    max-width: 100px;
+    clip-path: circle();
+}
+
+#Home #Information .Me{
+    height: 160px;
+
+}
+
+#Home #Information .hello{
+    padding-top: 60px;
+    padding-left: 21px;
+
+}
+
+#Home #Information .Me-hello{
+    display: flex;
+    align-items: center;
+}
+
+#Home #Information p,ul{
+    font-size: 16px;
+    color: #8B949E;
+}
+
+#Home #Information ul{
+    padding-left: 30px;
+    padding-top: 25px;
+
+}
+#Home #Information .port-tittle {
+    padding-top: 4px;
+    color: #fff;
+
+}
+
+
+#Home #Information .introduction {
+    color: #ACB4FE;
+    font-size: 18px;
+    padding-bottom: 26px;
+}
+
+#Home #Information .Intro-port{
+    padding-left: 22px;
+}
+
+
+
+/* Informação */
+#Home main{
+    grid-area: left;
+
+
+    color: #fff;
+
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+    padding-left: 170px;
+} 
+
+#Home .line-box{
+    padding-left: 140px;
+
+
+}
+
+#Home .line{
+    width: 2px;
+    height: 244px;
+    background-color:#FFFFFF;
+
+    background-image: linear-gradient(#0D1117, #8B949E);
+    
+}
+
+
+
+

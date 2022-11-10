@@ -1,10 +1,11 @@
 #Home{
     display: grid;
-    align-items: stretch;
-    overflow-y: scroll;
+    overflow-y: hidden;
     grid-template-areas: 
     'header header'
-    'left right'
+    'main aside '
+    'section section';
+    gap: 10px;
 
 }
 
@@ -36,7 +37,7 @@
 
 /* Code Imagem  */
 #Home aside {
-    grid-area: right;
+    grid-area: aside;
     padding-top: 190px;
 }
 
@@ -44,7 +45,8 @@
     max-width: 599px;
 }
 
-#Home strong {
+#Home .hello {
+    font-family:'Poppins', sans-serif;
     font-size: 50px;
     margin-bottom: 40px;
 
@@ -115,7 +117,7 @@
 
 /* Informação */
 #Home main{
-    grid-area: left;
+    grid-area: main;
 
 
     color: #fff;
@@ -143,6 +145,71 @@
     
 }
 
+
+/*Carolseu*/
+.projects{
+    grid-area: section;
+    max-width: 75vw;
+}
+.projects .carousel{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    justify-items: center;
+}
+
+.projects .carousel .item{
+    height: 341px;
+    width: 416px;
+    
+    background: linear-gradient(180deg, #171A1B 0%, rgba(23, 26, 27, 0) 100%);
+
+    margin: 48px;
+    border-radius: 15px;
+    
+    flex: none;
+    display: grid;
+    align-items: center;
+}
+
+.projects .carousel .item .info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+}
+
+.projects .carousel .item .info .name{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    color: #cccccc;
+}
+
+
+.projects .carousel .item .image img{
+    width: 200px;
+    height: 160px;
+    object-fit: contain;
+}
+
+.projects .carousel .item .image{
+    display: flex;
+    justify-content: center;
+}
+
+.projects .carousel .item .dots{
+    display: flex;
+    padding-left: 25px;
+    padding-top: 3px;
+}
+
+.projects .carousel .item .dots > div{
+    clip-path: circle();
+}
+
+.projects .carousel .item .dots .yellow {
+    padding-left: 8px;
+    padding-right: 8px;
+}
 
 
 

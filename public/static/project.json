@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Aprendizagem por projetos integrados - API" ,
+        "name": "fa-API-Group-02",
+        "description": "Desenvolver um site com análise de dados públicos, focando no eleitorado do Estado de São Paulo",
+        "image":"https://avatars.githubusercontent.com/u/79706351?s=200&v=4",
+        "link":"https://github.com/fa-API-Group-02" 
+    },
+    {
+        "title": "Aprendizagem por projetos integrados - API" ,
+        "name": "Polaris",
+        "description": " Sensoriamento remoto (visualização de imagens de satélites)",
+        "image":"https://avatars.githubusercontent.com/u/88553952?s=200&v=4",
+        "link":"https://github.com/Equipe-Polaris-DSM-2021" 
+    },
+    {
+        "title": "Aprendizagem por projetos integrados - API" ,
+        "name": "The Bugger Ducks(Help-Duck)",
+        "description": "Desenvolvimento de site help desk para evitar retrabalho no ambiente empresarial",
+        "image":"https://avatars.githubusercontent.com/u/102299883?s=200&v=4",
+        "link":"https://github.com/The-Bugger-Ducks/help-duck-documentation" 
+    },
+    {
+        "title": "Aprendizagem por projetos integrados - API" ,
+        "name": "The Bugger Ducks(Cloud-Fox)",
+        "description": "Captação e disseminação de dados meteorológicos",
+        "image":"",
+        "link":"https://github.com/The-Bugger-Ducks/cloud-fox-documentation" 
+    },
+    {
+        "title": "Analise de dados eleitorais" ,
+        "name": "Jupyter Notebook",
+        "description": "Analise de abstenção durante as eleições de 2020  ",
+        "image":"",
+        "link":"https://github.com/JoaoM-py/Jupyter" 
+    },
+    {
+        "title": "atvi_atlantis" ,
+        "name": "atvi_atlantis(TP2)",
+        "description": "Atividade: aplicar padrão de projeto 'protótipo' a um gerenciador de parques aquáticos, clubes e hotéis.",
+        "image":"",
+        "link":"https://github.com/JoaoM-py/atvi_atlantis" 
+    },
+    {
+        "title": "Autobots" ,
+        "name": "Autobots(DW3)",
+        "description": "Atividade: estrutura base para sistema CRUD de gestão de lojas especializadas em manutenção veicular e vendas de autopeças.",
+        "image":"",
+        "link":"https://github.com/JoaoM-py/Autobots" 
+    },
+    {
+        "title": "atvii-autobots",
+        "name": "atvii-autobots(DW3)",
+        "description": "Atividade: Aplicando níveis de maturidade ao criar estrutura HATEOAS",
+        "image":"",
+        "link":"https://github.com/JoaoM-py/atvii-autobots" 
+    },
+    {
+        "title": "atviii-autobots",
+        "name": "atviii-autobots(DW3)",
+        "description": "Atividade: Lidando com as novas informações referentes a operações de uma loja de manutenção veicular.",
+        "image":"",
+        "link":"https://github.com/JoaoM-py/atviii-autobots" 
+    }
+]

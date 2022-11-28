@@ -25,7 +25,7 @@ return(
 <div id="Home">
     <header>
         <div className='theme'>
-            <img src={ThemeIcon} alt="" />
+            <img src={ThemeIcon} alt="mudar tema" />
         </div>
         <div className='social'>
             <a href="https://www.linkedin.com/in/joaomarcoso/">

@@ -6,7 +6,7 @@ export const themeContext = createContext(null)
 
 function App() {
 
-  const [theme, setTheme] = useState("dark")
+  const [theme] = useState("dark")
 
   // const themeButton = () => {
   //   setTheme((crr) => (crr ==="light" ? "dark" : "light"))

@@ -28,6 +28,15 @@
         "link":"https://github.com/The-Bugger-Ducks/cloud-fox-documentation" 
     },
     {
+        "title": "Portifolio" ,
+        "name": "Portifolio",
+        "description": "Desenvolvimento de site pessoal, que sera utilizado pra fazer análises",
+        "image":"https://user-images.githubusercontent.com/80930525/202462947-deabd228-ca71-48bc-9234-ae2710da1f01.png",
+        "link":"https://github.com/JoaoM-py/Portifolio" 
+
+
+    },
+    {
         "title": "Analise de dados eleitorais" ,
         "name": "Jupyter Notebook",
         "description": "Analise de abstenção durante as eleições de 2020  ",

@@ -5,6 +5,15 @@
 }
 
 
+
+#light{
+    background: #E8E8E8;
+}
+
+#dark{
+    background: #0D1117;
+}
+
 body{
     background: #0D1117;
     color: #8B949E;

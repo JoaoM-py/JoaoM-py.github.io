@@ -8,9 +8,9 @@ function App() {
 
   const [theme, setTheme] = useState("dark")
 
-  const themeButton = () => {
-    setTheme((crr) => (crr ==="light" ? "dark" : "light"))
-  };
+  // const themeButton = () => {
+  //   setTheme((crr) => (crr ==="light" ? "dark" : "light"))
+  // };
 
   return (
     <div className="app" id={theme}>

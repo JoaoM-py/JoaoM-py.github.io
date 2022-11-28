@@ -1,4 +1,3 @@
-import imageFrame from '../assets/images/Frame.svg'
 import linkedinIcon from '../assets/images/Vector.svg'
 import githubIcon from '../assets/images/Vector (1).svg'
 import instagramIcon from '../assets/images/Vector (2).svg'

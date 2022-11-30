@@ -317,7 +317,9 @@ header .social .middle-icon{
     
 }
 
-
+.projects .carousel:hover .item{
+    animation-play-state: paused;
+}
 
 .projects .carousel .item{
     height: 341px;

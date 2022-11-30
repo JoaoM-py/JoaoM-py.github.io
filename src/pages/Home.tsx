@@ -89,7 +89,7 @@ return(
                     </div>
 
                     <div className="search-bar">
-                        <p>JoaoMarcos.com</p>
+                        <a href="https://joaomarcos.netlify.app/" target="_blank" rel="noopener noreferrer"><p>JoaoMarcos.com</p></a>
                     </div>
                 </div>
                 <div className="about-education">

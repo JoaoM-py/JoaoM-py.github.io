@@ -335,13 +335,13 @@ header .social .middle-icon{
     align-items: center;
 
     position: relative;
-    animation: marquee 180s infinite;
+    animation: marquee 80s infinite;
 
 }
 
 @keyframes marquee {
-    0% {transform: translate(0, 0);}
-    100% { transform: translate(-800%, 0);}
+    0% {left: 0;}
+    100% { left: -640%;}
 }
 
 

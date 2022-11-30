@@ -17,7 +17,7 @@ export function Home(){
 const [data, setData] = useState([]);
 
 useEffect(() =>{
-fetch('https://joaomarcos.netlify.app/static/project.json', {
+fetch('http://localhost:3000//static/project.json', {
 
 }).then((response) => response.json())
 .then(setData)
@@ -117,13 +117,13 @@ return(
             </aside>
             <section className="projects">
                 <p>Projetos</p>
-                <div className="carousel">
+                <div className="carousel" aria-hidden="true">
                     {data.map((item) => {
                     const {name, description, image, link} = item;
                     return(
                     <a href={link} style={{textDecoration:"none", color:"#8B949E"}} target="_blank"
                         rel="noopener noreferrer">
-                        <div className="item">
+                        <div className="item" >
                             <div className="dots">
                                 <div className="red" style={{height:'8px', width:'8px', backgroundColor:'#FF5F56'}}>
                                 </div>

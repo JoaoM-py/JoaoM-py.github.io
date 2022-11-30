@@ -17,7 +17,9 @@ export function Home(){
 const [data, setData] = useState([]);
 
 useEffect(() =>{
-fetch('https://localhost:3000/static/project.json').then((response) => response.json())
+fetch('http://localhost:3000/static/project.json', {
+
+}).then((response) => response.json())
 .then(setData)
 },[]);
 

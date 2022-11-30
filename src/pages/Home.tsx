@@ -17,7 +17,7 @@ export function Home(){
 const [data, setData] = useState([]);
 
 useEffect(() =>{
-fetch('http://localhost:3000/static/project.json', {
+fetch('https://joaomarcos.netlify.app/static/project.json', {
 
 }).then((response) => response.json())
 .then(setData)

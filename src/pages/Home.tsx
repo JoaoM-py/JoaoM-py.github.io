@@ -119,7 +119,7 @@ return(
                 <p>Projetos</p>
                 <div className="carousel" aria-hidden="true">
                     {data.map((item) => {
-                    const {name, description, image, link} = item;
+                    const {name, description, image, link, title} = item;
                     return(
                     <a href={link} style={{textDecoration:"none", color:"#8B949E"}} target="_blank"
                         rel="noopener noreferrer">
@@ -132,6 +132,7 @@ return(
                                 <div className="green" style={{height:'8px', width:'8px', backgroundColor:'#27C93F'}}>
                                 </div>
                             </div>
+                            <div className="title">{title}</div>
                             <div className="image">
                                 <img src={image} alt={name} />
                             </div>

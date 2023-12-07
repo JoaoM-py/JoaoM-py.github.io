@@ -361,6 +361,15 @@ header .social .middle-icon{
     color: #cccccc;
 }
 
+.projects .carousel .item .title{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #cccccc;
+}
+
 
 .projects .carousel .item .image img{
     width: 200px;

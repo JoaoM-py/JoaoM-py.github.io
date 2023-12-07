@@ -40,33 +40,5 @@
         "description": "Sistema de classificador de temas referente a atributos de produtos, serviços e processos operacionais a partir de comentários de clientes",
         "image":"https://github-production-user-asset-6210df.s3.amazonaws.com/80930525/288580222-855df15b-6e20-4707-88fc-4cd8db7bd464.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231207%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231207T000141Z&X-Amz-Expires=300&X-Amz-Signature=8c8e4549ff23fb3405f6894d1e38506cf995a4b2715ad7393a702b6629ed97ab&X-Amz-SignedHeaders=host&actor_id=80930525&key_id=0&repo_id=424782163",
         "link":"https://github.com/The-Bugger-Ducks/mood-hound-documentation" 
-    },
-    {
-        "title": "Portifolio" ,
-        "name": "Portifolio",
-        "description": "Desenvolvimento de site pessoal, que sera utilizado pra fazer análises",
-        "image":"https://user-images.githubusercontent.com/80930525/202462947-deabd228-ca71-48bc-9234-ae2710da1f01.png",
-        "link":"https://github.com/JoaoM-py/Portifolio" 
-    },
-    {
-        "title": "Autobots" ,
-        "name": "Autobots(DW3)",
-        "description": "Atividade: estrutura base para sistema CRUD de gestão de lojas especializadas em manutenção veicular e vendas de autopeças.",
-        "image":"https://avatars.githubusercontent.com/u/79706351?s=200&v=4",
-        "link":"https://github.com/JoaoM-py/Autobots" 
-    },
-    {
-        "title": "atvii-autobots",
-        "name": "atvii-autobots(DW3)",
-        "description": "Atividade: Aplicando níveis de maturidade ao criar estrutura HATEOAS",
-        "image":"https://avatars.githubusercontent.com/u/79706351?s=200&v=4",
-        "link":"https://github.com/JoaoM-py/atvii-autobots" 
-    },
-    {
-        "title": "atviii-autobots",
-        "name": "atviii-autobots(DW3)",
-        "description": "Atividade: Lidando com as novas informações referentes a operações de uma loja de manutenção veicular.",
-        "image":"https://avatars.githubusercontent.com/u/79706351?s=200&v=4",
-        "link":"https://github.com/JoaoM-py/atviii-autobots" 
     }
 ]

@@ -341,7 +341,7 @@ header .social .middle-icon{
 
 @keyframes marquee {
     0% {left: 0;}
-    100% { left: -640%;}
+    100% { left: -540%;}
 }
 
 
